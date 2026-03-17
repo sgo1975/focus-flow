@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Focus Flow | Zen Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="glass-card">
+            <h1 id="timer-display">25:00</h1>
+            
+            <div class="timer-presets">
+                <button class="preset-btn" data-time="5">5m</button>
+                <button class="preset-btn active" data-time="25">25m</button>
+                <button class="preset-btn" data-time="50">50m</button>
+            </div>
+
+            <div class="blob-container">
+                <div id="blob"></div>
+                <p id="breath-guide">Ready?</p>
+            </div>
+
+            <div class="controls">
+                <button id="start-btn">Start</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
